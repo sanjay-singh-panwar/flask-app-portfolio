@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1f1c2c, #928DAB);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color: #f7ca18;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin: 10px 0;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .skill {
+      background-color: #ffffff22;
+      border: 1px solid #f7ca18;
+      color: #f7ca18;
+      border-radius: 20px;
+      padding: 10px 20px;
+      margin: 8px;
+      font-size: 1rem;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .skill:hover {
+      background-color: #f7ca18;
+      color: #1f1c2c;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Sanjay Singh Panwar</h1>
+    <p>These are my skills:</p>
+    <div class="skills">
+      <div class="skill">Linux</div>
+      <div class="skill">Shell Scripting</div>
+      <div class="skill">Python</div>
+      <div class="skill">Docker</div>
+      <div class="skill">Jenkins</div>
+      <div class="skill">AWS</div>
+      <div class="skill">Kubernetes</div>
+      <div class="skill">Git</div>
+      <div class="skill">CI/CD</div>
+    </div>
+  </div>
+</body>
+</html>
+
+
